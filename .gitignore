@@ -1,0 +1,7 @@
+insulators_datasets_merged*
+augmented_images/
+*.pth
+__pycache__
+.DS_Store
+MAC_OS
+InternImage/
