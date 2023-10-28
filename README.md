@@ -2,6 +2,9 @@
 
 In this project, we address the critical task of instance segmentation on images of insulators, an essential problem in the context of power lines. Successfully solving this problem can lead to advancements in automating the inspection and maintenance of power lines, reducing the need for human intervention. We utilize the [**"Unifying Public Datasets for Insulator"**](https://github.com/heitorcfelix/public-insulator-datasets) dataset, which features COCO-style data annotations. However, the challenge with this dataset is that it lacks segmentation mask values in its annotations. To tackle this issue, we explore two different approaches:
 
+![](./sample.png)
+
+
 ## Weakly-Supervised Learning
 
 In this approach, we make use of the bounding boxes provided in the dataset to perform instance segmentation of insulators. We employ the [Box2Mask](https://paperswithcode.com/paper/box2mask-box-supervised-instance-segmentation) model to achieve this task. This method allows us to generate segmentation masks based on the available bounding box information.
